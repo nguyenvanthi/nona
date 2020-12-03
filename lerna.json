@@ -1,0 +1,6 @@
+{
+  "packages": ["lib/*"],
+  "npmClient": "npm",
+  "ignoreChanges": ["**/package*.json"],
+  "version": "1.0.0"
+}
