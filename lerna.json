@@ -1,6 +1,6 @@
 {
   "packages": ["lib/*"],
-  "npmClient": "npm",
+  "npmClient": "yarn",
   "ignoreChanges": ["**/package*.json"],
   "version": "1.0.0"
 }

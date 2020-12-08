@@ -1,8 +1,5 @@
 {
   "name": "nona",
-  "workspaces": [
-    "lib/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nguyenvanthi/nona.git"
@@ -15,7 +12,9 @@
   "scripts": {
     "dev": "nodemon -L --exec lerna run start --parallel",
     "eslint": "eslint .",
-    "eslint:fix": "eslint . --fix"
+    "eslint:fix": "eslint . --fix",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean -y"
   },
   "devDependencies": {
     "eslint": "^7.14.0",
